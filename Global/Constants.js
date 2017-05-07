@@ -553,6 +553,12 @@ const STRUCTURE_NUKER = "nuker";
  * @constant
  * @type {string}
  */
+const SUBSCRIPTION_TOKEN = 'token';
+
+/**
+ * @constant
+ * @type {string}
+ */
 const RESOURCE_ENERGY = "energy";
 
 /**
@@ -1506,6 +1512,18 @@ const PORTAL_DECAY = 30000;
 
 /**
  * @constant
+ * @type {string}
+ */
+const ORDER_SELL = 'sell';
+
+/**
+ * @constant
+ * @type {string}
+ */
+const ORDER_BUY = 'buy';
+
+/**
+ * @constant
  * @type {number}
  */
 const STORAGE_CAPACITY = 1000000;
@@ -1987,3 +2005,21 @@ const LOOK_NUKES = "nuke";
  * @type {string}
  */
 const LOOK_TERRAIN = "terrain";
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SYSTEM_USERNAME = 'Screeps';
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SIGN_NOVICE_AREA = 'A new Novice Area is being planned somewhere in this sector. Please make sure all important rooms are reserved.';
+
+/**
+ * @constant
+ * @type {string}
+ */
+const SIGN_RESPAWN_AREA = 'A new Respawn Area is being planned somewhere in this sector. Please make sure all important rooms are reserved.';
